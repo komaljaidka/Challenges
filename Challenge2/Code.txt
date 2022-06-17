@@ -8,12 +8,12 @@ wget https://github.com/namarilla-xyz/meta-data-query-to-json/blob/main/metadata
 
 # print meta-data
 go run metadata.go
-{"ami-id":"ami-aa941e9a","ami-launch-index":"0","block-device-mapping":{"ami":"sda1","ephemeral0":"sda2","root":"/dev/sda1","swap":"sda3"}, …
+{"ami-id":"ami-xxxxxxx","ami-launch-index":"0","block-device-mapping":{"ami":"sda1","ephemeral0":"sda2","root":"/dev/sda1","swap":"sda3"}, …
 
 # pretty print meta-data
 go run metadata.go --prettyprint
 {
-  "ami-id": "ami-aa941e9a",
+  "ami-id": "ami-xxxxxxx",
   "ami-launch-index": "0",
   "block-device-mapping": {
     "ami": "sda1",
