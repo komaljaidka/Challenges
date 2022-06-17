@@ -1,0 +1,4 @@
+Am planning to write a terraform code for creating an EC2 instance and AWS RDS.
+Windows EC2 instance will have the application code. 
+AWS RDS will have the Database.
+Application which i plan to install is on Windows EC2 instance.
